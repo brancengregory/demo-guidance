@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-guidance"
+version = "0.1.0"
+description = ""
+authors = ["Brancen Gregory <brancengregory@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+llama-cpp-python = "^0.2.53"
+transformers = "^4.38.2"
+torch = "^2.2.1"
+llama-cpp-guidance = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
